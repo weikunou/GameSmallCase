@@ -7,5 +7,10 @@ public class ExampleSingleton : MonoBehaviour
     void Start()
     {
         BaseManager.Instance.Log();
+
+        if (MonoManager.IsInitialized)
+        {
+            MonoManager.Instance.Log();
+        }
     }
 }
