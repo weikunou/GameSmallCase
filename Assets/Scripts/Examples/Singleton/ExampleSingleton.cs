@@ -12,5 +12,7 @@ public class ExampleSingleton : MonoBehaviour
         {
             MonoManager.Instance.Log();
         }
+
+        MonoAutoManager.Instance.Log();
     }
 }
