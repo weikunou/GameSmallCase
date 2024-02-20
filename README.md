@@ -8,3 +8,12 @@
 [泛型单例](Documents/Singleton.md)
 
 [事件系统](Documents/Event.md)
+
+
+
+编辑器扩展：
+
+[菜单栏快速切换场景](Documents/EditorSwitchScene.md)
+
+
+
