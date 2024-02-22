@@ -22,9 +22,9 @@
 
 使用 Linq 的 Where 方法进行查找，找到所有以 prefab 扩展名结尾的文件，得到一组文件路径字符串。
 
-遍历所有路径字符串，使用 AssetDatabase.LoadAssetAtPath 加载资源实例，获取 Image 组件。
+遍历所有路径字符串，使用 `AssetDatabase.LoadAssetAtPath` 加载资源实例，获取 Image 组件。
 
-使用 AssetDatabase.GetAssetPath 获取 Image 组件的 sprite 路径，判断路径是否为空。
+使用 `AssetDatabase.GetAssetPath` 获取 Image 组件的 sprite 路径，判断路径是否为空。
 
 符合条件的 Prefab，会被存储到 Node 节点中，并继续创建链表节点，链接 Image 和 Sprite，存入搜索结果列表中。
 
@@ -173,3 +173,4 @@ public class EditorResourceCheck : EditorWindow
 
 
 ![](images/editor-prefab-quick-position.png)
+
