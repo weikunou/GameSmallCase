@@ -15,5 +15,5 @@
 
 [菜单栏快速切换场景](Documents/EditorSwitchScene.md)
 
-
+[UI 图片源检查工具](Documents/EditorResourceCheck.md)
 
