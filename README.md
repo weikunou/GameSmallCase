@@ -17,3 +17,9 @@
 
 [UI 图片源检查工具](Documents/EditorResourceCheck.md)
 
+
+
+常用功能封装：
+
+[MD5 签名算法](Documents/MD5Sign.md)
+
